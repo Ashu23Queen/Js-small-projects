@@ -1,4 +1,4 @@
-document.querySelector('#rating').addEventListener('click', function (e) {
+document.querySelector('#starrating').addEventListener('click', function (e) {
     let action = 'add';
     for (const span of this.children) {
         span.classList[action]('active');

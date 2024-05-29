@@ -1,6 +1,6 @@
     body{background-color: #d5ffd5;}
-    #rating { font-size: 0; }
-    #rating span { font-size: 20px; }
-    #rating span::before { content: "☆"; }
-    #rating span.active::before {content: "★"; color: #e77817; }
-    #rating span:hover { cursor: pointer; color: #e77817; }
+    #starrating { font-size: 0; }
+    #starrating span { font-size: 20px; }
+    #starrating span::before { content: "☆"; }
+    #starrating span.active::before {content: "★"; color: #e77817; }
+    #starrating span:hover { cursor: pointer; color: #e77817; }
